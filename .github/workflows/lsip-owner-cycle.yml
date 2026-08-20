@@ -51,7 +51,9 @@ jobs:
           repository: apalladvisoryadmin-stack/LSIP
           ref: 0a1f72eeff19394914c34a971f2b12e7bc59d2cc
           path: private-lsip
-          fetch-depth: 0
+          fetch-depth: 1
+          fetch-tags: false
+          show-progress: false
           persist-credentials: true
           ssh-key: ${{ secrets.LSIP_DEPLOY_KEY }}
           ssh-strict: true
@@ -77,7 +79,7 @@ jobs:
             | awk '$2 != "refs/heads/operational/lsip-live-cycles" {print}' \
             | sort > "$RUNNER_TEMP/protected-refs-before.txt"
 
-          git -C private-lsip fetch --no-tags origin \
+          git -C private-lsip fetch --quiet --no-tags origin \
             refs/heads/operational/lsip-live-cycles:refs/remotes/origin/operational/lsip-live-cycles
           mkdir -p runner-state cycle-output
           git -C private-lsip show \
