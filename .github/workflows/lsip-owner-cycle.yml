@@ -49,7 +49,7 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           repository: apalladvisoryadmin-stack/LSIP
-          ref: f20b417c3ddfb49faac85142e29ae8754345f625
+          ref: 0a1f72eeff19394914c34a971f2b12e7bc59d2cc
           path: private-lsip
           fetch-depth: 0
           persist-credentials: true
