@@ -1,0 +1,271 @@
+name: LSIP — ปิดงวดและคำนวณงวดถัดไป
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm_official_result:
+        description: ยืนยันว่าผลทางการประกาศครบและตรวจสอบแล้ว กรุณาพิมพ์ YES
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: lsip-owner-draw-cycle-v1
+  cancel-in-progress: false
+
+jobs:
+  authorize:
+    name: ตรวจสิทธิ์ Owner
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: ตรวจ Owner และคำยืนยัน
+        env:
+          OWNER_ACTOR: ${{ github.actor }}
+          OWNER_CONFIRMATION: ${{ inputs.confirm_official_result }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ "$OWNER_ACTOR" != "apalladvisoryadmin-stack" ]]; then
+            echo "Owner actor gate: FAIL"
+            exit 1
+          fi
+          if [[ "$OWNER_CONFIRMATION" != "YES" ]]; then
+            echo "YES confirmation gate: FAIL"
+            exit 1
+          fi
+          echo "Owner actor gate: PASS"
+          echo "YES confirmation gate: PASS"
+
+  cycle:
+    name: ปิดงวดและคำนวณงวดถัดไป
+    needs: authorize
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: เปิด LSIP ส่วนตัวด้วยกุญแจเฉพาะ
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          repository: apalladvisoryadmin-stack/LSIP
+          ref: f20b417c3ddfb49faac85142e29ae8754345f625
+          path: private-lsip
+          fetch-depth: 0
+          persist-credentials: true
+          ssh-key: ${{ secrets.LSIP_DEPLOY_KEY }}
+          ssh-strict: true
+
+      - name: เตรียม Python ชั่วคราว
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: "3.12"
+
+      - name: ตรวจฐานหลักและเรียกคืนสถานะส่วนตัว
+        id: prepare
+        shell: bash
+        run: |
+          set -euo pipefail
+          expected_db="b634ed00eb3baedcc5f1e0cd8df07f7a54c9bde89b3bbdf66ca8e7fbe8440b51"
+          actual_db="$(sha256sum private-lsip/backend/lottery.db | cut -d ' ' -f 1)"
+          if [[ "$actual_db" != "$expected_db" ]]; then
+            echo "Canonical database gate: FAIL"
+            exit 1
+          fi
+
+          git -C private-lsip ls-remote --heads origin \
+            | awk '$2 != "refs/heads/operational/lsip-live-cycles" {print}' \
+            | sort > "$RUNNER_TEMP/protected-refs-before.txt"
+
+          git -C private-lsip fetch --no-tags origin \
+            refs/heads/operational/lsip-live-cycles:refs/remotes/origin/operational/lsip-live-cycles
+          mkdir -p runner-state cycle-output
+          git -C private-lsip show \
+            refs/remotes/origin/operational/lsip-live-cycles:operational/state/owner_draw_cycle_v1.db \
+            > runner-state/owner_draw_cycle_v1.db
+          echo "Canonical database gate: PASS"
+          echo "Private operational restore: PASS"
+
+      - name: ติดตั้งเฉพาะส่วนที่ใช้คำนวณ
+        shell: bash
+        run: |
+          set -euo pipefail
+          python -m pip install --disable-pip-version-check --no-input --quiet \
+            -r private-lsip/backend/requirements-owner-cycle.txt
+
+      - name: ทำรอบปิดงวดแบบ synchronous
+        id: engine
+        env:
+          LSIP_OPERATIONAL_DB_PATH: ${{ github.workspace }}/runner-state/owner_draw_cycle_v1.db
+          PYTHONPATH: ${{ github.workspace }}/private-lsip/backend
+        shell: bash
+        run: |
+          set +e
+          python private-lsip/backend/run_zero_cost_owner_cycle_v1.py \
+            --database private-lsip/backend/lottery.db \
+            --operational-database "$LSIP_OPERATIONAL_DB_PATH" \
+            --output-directory cycle-output \
+            > "$RUNNER_TEMP/lsip-public-status.txt" \
+            2> "$RUNNER_TEMP/lsip-private-error.txt"
+          cycle_exit=$?
+          set -e
+          cat "$RUNNER_TEMP/lsip-public-status.txt"
+          echo "LSIP_CYCLE_EXIT=$cycle_exit" >> "$GITHUB_ENV"
+          exit 0
+
+      - name: บันทึกสถานะกลับสาขาส่วนตัว
+        id: persist
+        if: always() && steps.prepare.outcome == 'success' && steps.engine.outcome == 'success'
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f cycle-output/operational/state/owner_draw_cycle_v1.db
+          test -f cycle-output/operational/manifests/latest.json
+          test -f cycle-output/operational/summaries/latest.md
+          test -f cycle-output/public-status.json
+
+          python - <<'PY'
+          import sqlite3
+          path = "cycle-output/operational/state/owner_draw_cycle_v1.db"
+          connection = sqlite3.connect(path)
+          try:
+              result = connection.execute("PRAGMA integrity_check").fetchone()[0]
+          finally:
+              connection.close()
+          if result != "ok":
+              raise SystemExit("Operational SQLite integrity: FAIL")
+          print("Operational SQLite integrity: PASS")
+          PY
+
+          git -C private-lsip worktree add --detach \
+            "$RUNNER_TEMP/operational-worktree" \
+            refs/remotes/origin/operational/lsip-live-cycles
+          operational="$RUNNER_TEMP/operational-worktree"
+          git -C "$operational" switch -C operational/lsip-live-cycles
+          mkdir -p \
+            "$operational/operational/state" \
+            "$operational/operational/manifests" \
+            "$operational/operational/summaries"
+          install -m 0644 cycle-output/operational/state/owner_draw_cycle_v1.db \
+            "$operational/operational/state/owner_draw_cycle_v1.db"
+          install -m 0644 cycle-output/operational/manifests/*.json \
+            "$operational/operational/manifests/"
+          install -m 0644 cycle-output/operational/summaries/*.md \
+            "$operational/operational/summaries/"
+
+          git -C "$operational" config user.name "github-actions[bot]"
+          git -C "$operational" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git -C "$operational" add -- \
+            operational/state/owner_draw_cycle_v1.db \
+            operational/manifests \
+            operational/summaries
+          if git -C "$operational" diff --cached --quiet; then
+            echo "Private operational persistence: PASS (unchanged)"
+          else
+            git -C "$operational" commit -m "chore: persist owner draw cycle"
+            git -C "$operational" push origin \
+              HEAD:refs/heads/operational/lsip-live-cycles
+            echo "Private operational persistence: PASS"
+          fi
+
+      - name: ตรวจสาขาและหลักฐานคุ้มครอง
+        id: security
+        if: always() && steps.prepare.outcome == 'success'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git -C private-lsip ls-remote --heads origin \
+            | awk '$2 != "refs/heads/operational/lsip-live-cycles" {print}' \
+            | sort > "$RUNNER_TEMP/protected-refs-after.txt"
+          cmp "$RUNNER_TEMP/protected-refs-before.txt" "$RUNNER_TEMP/protected-refs-after.txt"
+
+          expected_db="b634ed00eb3baedcc5f1e0cd8df07f7a54c9bde89b3bbdf66ca8e7fbe8440b51"
+          actual_db="$(sha256sum private-lsip/backend/lottery.db | cut -d ' ' -f 1)"
+          if [[ "$actual_db" != "$expected_db" ]]; then
+            echo "Canonical database gate: FAIL"
+            exit 1
+          fi
+          test -z "$(git -C private-lsip status --porcelain --untracked-files=no)"
+          echo "Protected refs and evidence: PASS"
+
+      - name: สรุปผลที่เปิดเผยได้
+        if: always()
+        env:
+          PERSIST_OUTCOME: ${{ steps.persist.outcome }}
+          SECURITY_OUTCOME: ${{ steps.security.outcome }}
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          allowed_keys = {
+              "schema",
+              "official_result_validation",
+              "previous_prediction_audit",
+              "forward_calculation",
+              "next_prediction_freeze",
+              "operational_persistence",
+              "overall",
+              "private_summary_url",
+          }
+          status_path = Path("cycle-output/public-status.json")
+          fallback = {
+              "official_result_validation": "FAIL",
+              "previous_prediction_audit": "FAIL",
+              "forward_calculation": "FAIL",
+              "next_prediction_freeze": "FAIL",
+              "overall": "FAILED",
+          }
+          try:
+              status = json.loads(status_path.read_text(encoding="utf-8"))
+              if set(status) != allowed_keys:
+                  raise ValueError("unsafe status shape")
+          except Exception:
+              status = fallback
+
+          persistence = "PASS" if os.environ.get("PERSIST_OUTCOME") == "success" else "FAIL"
+          security = "PASS" if os.environ.get("SECURITY_OUTCOME") == "success" else "FAIL"
+          private_link = (
+              "https://github.com/apalladvisoryadmin-stack/LSIP/blob/"
+              "operational/lsip-live-cycles/operational/summaries/latest.md"
+          )
+          lines = [
+              "# LSIP Cycle",
+              "",
+              f"Official result validation: {status.get('official_result_validation', 'FAIL')}",
+              f"Previous prediction audit: {status.get('previous_prediction_audit', 'FAIL')}",
+              f"Forward calculation: {status.get('forward_calculation', 'FAIL')}",
+              f"Next prediction freeze: {status.get('next_prediction_freeze', 'FAIL')}",
+              f"Operational persistence: {persistence}",
+              f"Protected refs and evidence: {security}",
+              f"Overall: {status.get('overall', 'FAILED')}",
+              "",
+              f"[ดูผลฉบับเต็มใน LSIP ส่วนตัว]({private_link})",
+              "",
+          ]
+          Path(os.environ["GITHUB_STEP_SUMMARY"]).write_text("\n".join(lines), encoding="utf-8")
+          PY
+
+      - name: ปิดงานตามผลจริง
+        if: always()
+        env:
+          PERSIST_OUTCOME: ${{ steps.persist.outcome }}
+          SECURITY_OUTCOME: ${{ steps.security.outcome }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ "$PERSIST_OUTCOME" != "success" ]]; then
+            echo "Operational persistence: FAIL"
+            exit 1
+          fi
+          if [[ "$SECURITY_OUTCOME" != "success" ]]; then
+            echo "Protected refs and evidence: FAIL"
+            exit 1
+          fi
+          if [[ "${LSIP_CYCLE_EXIT:-99}" != "0" ]]; then
+            echo "LSIP cycle terminal result: FAIL"
+            exit 1
+          fi
+          echo "LSIP cycle terminal result: PASS"
