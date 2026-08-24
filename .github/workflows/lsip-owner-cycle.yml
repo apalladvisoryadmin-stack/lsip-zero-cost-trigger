@@ -49,7 +49,7 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           repository: apalladvisoryadmin-stack/LSIP
-          ref: e7a003447e5c29f13f857772cd8ba9d8fdf28122
+          ref: a453047f06b95d027fa1215c8795c13da6fd48c8
           path: private-lsip
           fetch-depth: 1
           fetch-tags: false
@@ -295,7 +295,7 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           repository: apalladvisoryadmin-stack/LSIP
-          ref: e7a003447e5c29f13f857772cd8ba9d8fdf28122
+          ref: a453047f06b95d027fa1215c8795c13da6fd48c8
           path: private-lsip
           fetch-depth: 1
           fetch-tags: false
