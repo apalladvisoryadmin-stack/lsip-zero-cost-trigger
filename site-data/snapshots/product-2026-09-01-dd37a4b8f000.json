@@ -1,0 +1,4654 @@
+{
+  "active_product_snapshot_id": "product-2026-09-01-dd37a4b8f000",
+  "consensus": {
+    "consensus_fingerprint": "6d49edaa781f5a4479d0b4c6a3d8ea7ed9fb99ab6e2c3ccbdc4dd745ec2cdc56",
+    "semantics": "agreement counts and family diversity, not probability",
+    "status": "DESCRIPTIVE_EXISTING_EVIDENCE_ONLY",
+    "targets": {
+      "A": {
+        "contributors": 4,
+        "descriptive_order": [
+          {
+            "candidate": "95",
+            "families": [
+              "PRODUCTION",
+              "RESEARCH_V3",
+              "RESEARCH_V4",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 4,
+            "simple_count": 4,
+            "sources": [
+              {
+                "formula_id": "production_a_best_single_signal",
+                "rank": 10
+              },
+              {
+                "formula_id": "research_v3_a_digit_expanding",
+                "rank": 5
+              },
+              {
+                "formula_id": "research_v4_a_regime_frequency",
+                "rank": 16
+              },
+              {
+                "formula_id": "research_v5_a_evolutionary_formula_champion",
+                "rank": 8
+              }
+            ]
+          },
+          {
+            "candidate": "69",
+            "families": [
+              "PRODUCTION",
+              "RESEARCH_V3",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 3,
+            "simple_count": 3,
+            "sources": [
+              {
+                "formula_id": "production_a_best_single_signal",
+                "rank": 6
+              },
+              {
+                "formula_id": "research_v3_a_digit_expanding",
+                "rank": 1
+              },
+              {
+                "formula_id": "research_v5_a_evolutionary_formula_champion",
+                "rank": 4
+              }
+            ]
+          },
+          {
+            "candidate": "89",
+            "families": [
+              "RESEARCH_V3",
+              "RESEARCH_V4",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 3,
+            "simple_count": 3,
+            "sources": [
+              {
+                "formula_id": "research_v3_a_digit_expanding",
+                "rank": 15
+              },
+              {
+                "formula_id": "research_v4_a_regime_frequency",
+                "rank": 17
+              },
+              {
+                "formula_id": "research_v5_a_evolutionary_formula_champion",
+                "rank": 1
+              }
+            ]
+          },
+          {
+            "candidate": "99",
+            "families": [
+              "RESEARCH_V3",
+              "RESEARCH_V4",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 3,
+            "simple_count": 3,
+            "sources": [
+              {
+                "formula_id": "research_v3_a_digit_expanding",
+                "rank": 3
+              },
+              {
+                "formula_id": "research_v4_a_regime_frequency",
+                "rank": 15
+              },
+              {
+                "formula_id": "research_v5_a_evolutionary_formula_champion",
+                "rank": 15
+              }
+            ]
+          },
+          {
+            "candidate": "07",
+            "families": [
+              "PRODUCTION",
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 2,
+            "simple_count": 2,
+            "sources": [
+              {
+                "formula_id": "production_a_best_single_signal",
+                "rank": 9
+              },
+              {
+                "formula_id": "research_v4_a_regime_frequency",
+                "rank": 11
+              }
+            ]
+          },
+          {
+            "candidate": "08",
+            "families": [
+              "PRODUCTION",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 2,
+            "simple_count": 2,
+            "sources": [
+              {
+                "formula_id": "production_a_best_single_signal",
+                "rank": 17
+              },
+              {
+                "formula_id": "research_v5_a_evolutionary_formula_champion",
+                "rank": 20
+              }
+            ]
+          },
+          {
+            "candidate": "09",
+            "families": [
+              "RESEARCH_V4",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 2,
+            "simple_count": 2,
+            "sources": [
+              {
+                "formula_id": "research_v4_a_regime_frequency",
+                "rank": 4
+              },
+              {
+                "formula_id": "research_v5_a_evolutionary_formula_champion",
+                "rank": 16
+              }
+            ]
+          },
+          {
+            "candidate": "52",
+            "families": [
+              "PRODUCTION",
+              "RESEARCH_V3"
+            ],
+            "family_diversity": 2,
+            "simple_count": 2,
+            "sources": [
+              {
+                "formula_id": "production_a_best_single_signal",
+                "rank": 2
+              },
+              {
+                "formula_id": "research_v3_a_digit_expanding",
+                "rank": 17
+              }
+            ]
+          },
+          {
+            "candidate": "58",
+            "families": [
+              "RESEARCH_V3",
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 2,
+            "simple_count": 2,
+            "sources": [
+              {
+                "formula_id": "research_v3_a_digit_expanding",
+                "rank": 9
+              },
+              {
+                "formula_id": "research_v4_a_regime_frequency",
+                "rank": 5
+              }
+            ]
+          },
+          {
+            "candidate": "59",
+            "families": [
+              "RESEARCH_V3",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 2,
+            "simple_count": 2,
+            "sources": [
+              {
+                "formula_id": "research_v3_a_digit_expanding",
+                "rank": 4
+              },
+              {
+                "formula_id": "research_v5_a_evolutionary_formula_champion",
+                "rank": 18
+              }
+            ]
+          },
+          {
+            "candidate": "61",
+            "families": [
+              "RESEARCH_V3",
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 2,
+            "simple_count": 2,
+            "sources": [
+              {
+                "formula_id": "research_v3_a_digit_expanding",
+                "rank": 14
+              },
+              {
+                "formula_id": "research_v4_a_regime_frequency",
+                "rank": 1
+              }
+            ]
+          },
+          {
+            "candidate": "62",
+            "families": [
+              "PRODUCTION",
+              "RESEARCH_V3"
+            ],
+            "family_diversity": 2,
+            "simple_count": 2,
+            "sources": [
+              {
+                "formula_id": "production_a_best_single_signal",
+                "rank": 11
+              },
+              {
+                "formula_id": "research_v3_a_digit_expanding",
+                "rank": 11
+              }
+            ]
+          },
+          {
+            "candidate": "67",
+            "families": [
+              "PRODUCTION",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 2,
+            "simple_count": 2,
+            "sources": [
+              {
+                "formula_id": "production_a_best_single_signal",
+                "rank": 7
+              },
+              {
+                "formula_id": "research_v5_a_evolutionary_formula_champion",
+                "rank": 11
+              }
+            ]
+          },
+          {
+            "candidate": "68",
+            "families": [
+              "RESEARCH_V3",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 2,
+            "simple_count": 2,
+            "sources": [
+              {
+                "formula_id": "research_v3_a_digit_expanding",
+                "rank": 7
+              },
+              {
+                "formula_id": "research_v5_a_evolutionary_formula_champion",
+                "rank": 9
+              }
+            ]
+          },
+          {
+            "candidate": "78",
+            "families": [
+              "PRODUCTION",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 2,
+            "simple_count": 2,
+            "sources": [
+              {
+                "formula_id": "production_a_best_single_signal",
+                "rank": 5
+              },
+              {
+                "formula_id": "research_v5_a_evolutionary_formula_champion",
+                "rank": 6
+              }
+            ]
+          },
+          {
+            "candidate": "79",
+            "families": [
+              "RESEARCH_V4",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 2,
+            "simple_count": 2,
+            "sources": [
+              {
+                "formula_id": "research_v4_a_regime_frequency",
+                "rank": 7
+              },
+              {
+                "formula_id": "research_v5_a_evolutionary_formula_champion",
+                "rank": 2
+              }
+            ]
+          },
+          {
+            "candidate": "91",
+            "families": [
+              "RESEARCH_V3",
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 2,
+            "simple_count": 2,
+            "sources": [
+              {
+                "formula_id": "research_v3_a_digit_expanding",
+                "rank": 19
+              },
+              {
+                "formula_id": "research_v4_a_regime_frequency",
+                "rank": 6
+              }
+            ]
+          },
+          {
+            "candidate": "92",
+            "families": [
+              "RESEARCH_V3",
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 2,
+            "simple_count": 2,
+            "sources": [
+              {
+                "formula_id": "research_v3_a_digit_expanding",
+                "rank": 16
+              },
+              {
+                "formula_id": "research_v4_a_regime_frequency",
+                "rank": 3
+              }
+            ]
+          },
+          {
+            "candidate": "94",
+            "families": [
+              "PRODUCTION",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 2,
+            "simple_count": 2,
+            "sources": [
+              {
+                "formula_id": "production_a_best_single_signal",
+                "rank": 8
+              },
+              {
+                "formula_id": "research_v5_a_evolutionary_formula_champion",
+                "rank": 13
+              }
+            ]
+          },
+          {
+            "candidate": "96",
+            "families": [
+              "RESEARCH_V3",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 2,
+            "simple_count": 2,
+            "sources": [
+              {
+                "formula_id": "research_v3_a_digit_expanding",
+                "rank": 13
+              },
+              {
+                "formula_id": "research_v5_a_evolutionary_formula_champion",
+                "rank": 14
+              }
+            ]
+          }
+        ]
+      },
+      "B": {
+        "contributors": 4,
+        "descriptive_order": [
+          {
+            "candidate": "06",
+            "families": [
+              "EXPERIMENTAL",
+              "RESEARCH_V3",
+              "RESEARCH_V4",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 4,
+            "simple_count": 4,
+            "sources": [
+              {
+                "formula_id": "experimental_b_best_single_signal",
+                "rank": 11
+              },
+              {
+                "formula_id": "research_v3_b_composite_recent",
+                "rank": 11
+              },
+              {
+                "formula_id": "research_v4_b_ensemble_2",
+                "rank": 4
+              },
+              {
+                "formula_id": "research_v5_b_learned_ensemble",
+                "rank": 5
+              }
+            ]
+          },
+          {
+            "candidate": "09",
+            "families": [
+              "EXPERIMENTAL",
+              "RESEARCH_V3",
+              "RESEARCH_V4",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 4,
+            "simple_count": 4,
+            "sources": [
+              {
+                "formula_id": "experimental_b_best_single_signal",
+                "rank": 14
+              },
+              {
+                "formula_id": "research_v3_b_composite_recent",
+                "rank": 6
+              },
+              {
+                "formula_id": "research_v4_b_ensemble_2",
+                "rank": 20
+              },
+              {
+                "formula_id": "research_v5_b_learned_ensemble",
+                "rank": 2
+              }
+            ]
+          },
+          {
+            "candidate": "12",
+            "families": [
+              "EXPERIMENTAL",
+              "RESEARCH_V3",
+              "RESEARCH_V4",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 4,
+            "simple_count": 4,
+            "sources": [
+              {
+                "formula_id": "experimental_b_best_single_signal",
+                "rank": 17
+              },
+              {
+                "formula_id": "research_v3_b_composite_recent",
+                "rank": 14
+              },
+              {
+                "formula_id": "research_v4_b_ensemble_2",
+                "rank": 7
+              },
+              {
+                "formula_id": "research_v5_b_learned_ensemble",
+                "rank": 3
+              }
+            ]
+          },
+          {
+            "candidate": "14",
+            "families": [
+              "EXPERIMENTAL",
+              "RESEARCH_V3",
+              "RESEARCH_V4",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 4,
+            "simple_count": 4,
+            "sources": [
+              {
+                "formula_id": "experimental_b_best_single_signal",
+                "rank": 2
+              },
+              {
+                "formula_id": "research_v3_b_composite_recent",
+                "rank": 3
+              },
+              {
+                "formula_id": "research_v4_b_ensemble_2",
+                "rank": 2
+              },
+              {
+                "formula_id": "research_v5_b_learned_ensemble",
+                "rank": 1
+              }
+            ]
+          },
+          {
+            "candidate": "15",
+            "families": [
+              "EXPERIMENTAL",
+              "RESEARCH_V3",
+              "RESEARCH_V4",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 4,
+            "simple_count": 4,
+            "sources": [
+              {
+                "formula_id": "experimental_b_best_single_signal",
+                "rank": 19
+              },
+              {
+                "formula_id": "research_v3_b_composite_recent",
+                "rank": 1
+              },
+              {
+                "formula_id": "research_v4_b_ensemble_2",
+                "rank": 1
+              },
+              {
+                "formula_id": "research_v5_b_learned_ensemble",
+                "rank": 4
+              }
+            ]
+          },
+          {
+            "candidate": "46",
+            "families": [
+              "EXPERIMENTAL",
+              "RESEARCH_V3",
+              "RESEARCH_V4",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 4,
+            "simple_count": 4,
+            "sources": [
+              {
+                "formula_id": "experimental_b_best_single_signal",
+                "rank": 4
+              },
+              {
+                "formula_id": "research_v3_b_composite_recent",
+                "rank": 13
+              },
+              {
+                "formula_id": "research_v4_b_ensemble_2",
+                "rank": 9
+              },
+              {
+                "formula_id": "research_v5_b_learned_ensemble",
+                "rank": 14
+              }
+            ]
+          },
+          {
+            "candidate": "52",
+            "families": [
+              "EXPERIMENTAL",
+              "RESEARCH_V3",
+              "RESEARCH_V4",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 4,
+            "simple_count": 4,
+            "sources": [
+              {
+                "formula_id": "experimental_b_best_single_signal",
+                "rank": 3
+              },
+              {
+                "formula_id": "research_v3_b_composite_recent",
+                "rank": 7
+              },
+              {
+                "formula_id": "research_v4_b_ensemble_2",
+                "rank": 6
+              },
+              {
+                "formula_id": "research_v5_b_learned_ensemble",
+                "rank": 6
+              }
+            ]
+          },
+          {
+            "candidate": "95",
+            "families": [
+              "EXPERIMENTAL",
+              "RESEARCH_V3",
+              "RESEARCH_V4",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 4,
+            "simple_count": 4,
+            "sources": [
+              {
+                "formula_id": "experimental_b_best_single_signal",
+                "rank": 1
+              },
+              {
+                "formula_id": "research_v3_b_composite_recent",
+                "rank": 4
+              },
+              {
+                "formula_id": "research_v4_b_ensemble_2",
+                "rank": 3
+              },
+              {
+                "formula_id": "research_v5_b_learned_ensemble",
+                "rank": 7
+              }
+            ]
+          },
+          {
+            "candidate": "03",
+            "families": [
+              "EXPERIMENTAL",
+              "RESEARCH_V3",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 3,
+            "simple_count": 3,
+            "sources": [
+              {
+                "formula_id": "experimental_b_best_single_signal",
+                "rank": 8
+              },
+              {
+                "formula_id": "research_v3_b_composite_recent",
+                "rank": 19
+              },
+              {
+                "formula_id": "research_v5_b_learned_ensemble",
+                "rank": 10
+              }
+            ]
+          },
+          {
+            "candidate": "04",
+            "families": [
+              "EXPERIMENTAL",
+              "RESEARCH_V4",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 3,
+            "simple_count": 3,
+            "sources": [
+              {
+                "formula_id": "experimental_b_best_single_signal",
+                "rank": 9
+              },
+              {
+                "formula_id": "research_v4_b_ensemble_2",
+                "rank": 19
+              },
+              {
+                "formula_id": "research_v5_b_learned_ensemble",
+                "rank": 19
+              }
+            ]
+          },
+          {
+            "candidate": "63",
+            "families": [
+              "RESEARCH_V3",
+              "RESEARCH_V4",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 3,
+            "simple_count": 3,
+            "sources": [
+              {
+                "formula_id": "research_v3_b_composite_recent",
+                "rank": 5
+              },
+              {
+                "formula_id": "research_v4_b_ensemble_2",
+                "rank": 12
+              },
+              {
+                "formula_id": "research_v5_b_learned_ensemble",
+                "rank": 9
+              }
+            ]
+          },
+          {
+            "candidate": "70",
+            "families": [
+              "RESEARCH_V3",
+              "RESEARCH_V4",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 3,
+            "simple_count": 3,
+            "sources": [
+              {
+                "formula_id": "research_v3_b_composite_recent",
+                "rank": 12
+              },
+              {
+                "formula_id": "research_v4_b_ensemble_2",
+                "rank": 8
+              },
+              {
+                "formula_id": "research_v5_b_learned_ensemble",
+                "rank": 13
+              }
+            ]
+          },
+          {
+            "candidate": "72",
+            "families": [
+              "RESEARCH_V3",
+              "RESEARCH_V4",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 3,
+            "simple_count": 3,
+            "sources": [
+              {
+                "formula_id": "research_v3_b_composite_recent",
+                "rank": 15
+              },
+              {
+                "formula_id": "research_v4_b_ensemble_2",
+                "rank": 15
+              },
+              {
+                "formula_id": "research_v5_b_learned_ensemble",
+                "rank": 18
+              }
+            ]
+          },
+          {
+            "candidate": "84",
+            "families": [
+              "RESEARCH_V3",
+              "RESEARCH_V4",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 3,
+            "simple_count": 3,
+            "sources": [
+              {
+                "formula_id": "research_v3_b_composite_recent",
+                "rank": 10
+              },
+              {
+                "formula_id": "research_v4_b_ensemble_2",
+                "rank": 11
+              },
+              {
+                "formula_id": "research_v5_b_learned_ensemble",
+                "rank": 16
+              }
+            ]
+          },
+          {
+            "candidate": "87",
+            "families": [
+              "RESEARCH_V3",
+              "RESEARCH_V4",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 3,
+            "simple_count": 3,
+            "sources": [
+              {
+                "formula_id": "research_v3_b_composite_recent",
+                "rank": 8
+              },
+              {
+                "formula_id": "research_v4_b_ensemble_2",
+                "rank": 13
+              },
+              {
+                "formula_id": "research_v5_b_learned_ensemble",
+                "rank": 15
+              }
+            ]
+          },
+          {
+            "candidate": "00",
+            "families": [
+              "EXPERIMENTAL",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 2,
+            "simple_count": 2,
+            "sources": [
+              {
+                "formula_id": "experimental_b_best_single_signal",
+                "rank": 5
+              },
+              {
+                "formula_id": "research_v5_b_learned_ensemble",
+                "rank": 11
+              }
+            ]
+          },
+          {
+            "candidate": "29",
+            "families": [
+              "RESEARCH_V3",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 2,
+            "simple_count": 2,
+            "sources": [
+              {
+                "formula_id": "research_v3_b_composite_recent",
+                "rank": 20
+              },
+              {
+                "formula_id": "research_v5_b_learned_ensemble",
+                "rank": 20
+              }
+            ]
+          },
+          {
+            "candidate": "77",
+            "families": [
+              "RESEARCH_V3",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 2,
+            "simple_count": 2,
+            "sources": [
+              {
+                "formula_id": "research_v3_b_composite_recent",
+                "rank": 9
+              },
+              {
+                "formula_id": "research_v5_b_learned_ensemble",
+                "rank": 12
+              }
+            ]
+          },
+          {
+            "candidate": "79",
+            "families": [
+              "RESEARCH_V3",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 2,
+            "simple_count": 2,
+            "sources": [
+              {
+                "formula_id": "research_v3_b_composite_recent",
+                "rank": 2
+              },
+              {
+                "formula_id": "research_v5_b_learned_ensemble",
+                "rank": 8
+              }
+            ]
+          },
+          {
+            "candidate": "98",
+            "families": [
+              "RESEARCH_V3",
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 2,
+            "simple_count": 2,
+            "sources": [
+              {
+                "formula_id": "research_v3_b_composite_recent",
+                "rank": 16
+              },
+              {
+                "formula_id": "research_v4_b_ensemble_2",
+                "rank": 14
+              }
+            ]
+          }
+        ]
+      },
+      "C": {
+        "contributors": 2,
+        "descriptive_order": [
+          {
+            "candidate": "004",
+            "families": [
+              "RESEARCH_V4",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 2,
+            "simple_count": 2,
+            "sources": [
+              {
+                "formula_id": "research_v4_c_frequency_w24",
+                "rank": 11
+              },
+              {
+                "formula_id": "research_v5_c_evolutionary_formula_champion",
+                "rank": 1
+              }
+            ]
+          },
+          {
+            "candidate": "340",
+            "families": [
+              "RESEARCH_V4",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 2,
+            "simple_count": 2,
+            "sources": [
+              {
+                "formula_id": "research_v4_c_frequency_w24",
+                "rank": 19
+              },
+              {
+                "formula_id": "research_v5_c_evolutionary_formula_champion",
+                "rank": 19
+              }
+            ]
+          },
+          {
+            "candidate": "506",
+            "families": [
+              "RESEARCH_V4",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 2,
+            "simple_count": 2,
+            "sources": [
+              {
+                "formula_id": "research_v4_c_frequency_w24",
+                "rank": 9
+              },
+              {
+                "formula_id": "research_v5_c_evolutionary_formula_champion",
+                "rank": 3
+              }
+            ]
+          },
+          {
+            "candidate": "000",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_c_evolutionary_formula_champion",
+                "rank": 8
+              }
+            ]
+          },
+          {
+            "candidate": "001",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_c_evolutionary_formula_champion",
+                "rank": 5
+              }
+            ]
+          },
+          {
+            "candidate": "002",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_c_evolutionary_formula_champion",
+                "rank": 9
+              }
+            ]
+          },
+          {
+            "candidate": "008",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_c_evolutionary_formula_champion",
+                "rank": 13
+              }
+            ]
+          },
+          {
+            "candidate": "011",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_c_evolutionary_formula_champion",
+                "rank": 12
+              }
+            ]
+          },
+          {
+            "candidate": "017",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_c_evolutionary_formula_champion",
+                "rank": 18
+              }
+            ]
+          },
+          {
+            "candidate": "021",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_c_evolutionary_formula_champion",
+                "rank": 20
+              }
+            ]
+          },
+          {
+            "candidate": "059",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_c_frequency_w24",
+                "rank": 1
+              }
+            ]
+          },
+          {
+            "candidate": "100",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_c_evolutionary_formula_champion",
+                "rank": 4
+              }
+            ]
+          },
+          {
+            "candidate": "103",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_c_evolutionary_formula_champion",
+                "rank": 10
+              }
+            ]
+          },
+          {
+            "candidate": "105",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_c_evolutionary_formula_champion",
+                "rank": 16
+              }
+            ]
+          },
+          {
+            "candidate": "107",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_c_evolutionary_formula_champion",
+                "rank": 2
+              }
+            ]
+          },
+          {
+            "candidate": "109",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_c_evolutionary_formula_champion",
+                "rank": 15
+              }
+            ]
+          },
+          {
+            "candidate": "110",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_c_evolutionary_formula_champion",
+                "rank": 17
+              }
+            ]
+          },
+          {
+            "candidate": "112",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_c_evolutionary_formula_champion",
+                "rank": 14
+              }
+            ]
+          },
+          {
+            "candidate": "173",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_c_frequency_w24",
+                "rank": 16
+              }
+            ]
+          },
+          {
+            "candidate": "174",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_c_frequency_w24",
+                "rank": 4
+              }
+            ]
+          }
+        ]
+      },
+      "D": {
+        "contributors": 2,
+        "descriptive_order": [
+          {
+            "candidate": "000",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_d_evolutionary_formula_champion",
+                "rank": 3
+              }
+            ]
+          },
+          {
+            "candidate": "001",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_d_evolutionary_formula_champion",
+                "rank": 10
+              }
+            ]
+          },
+          {
+            "candidate": "002",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_d_evolutionary_formula_champion",
+                "rank": 19
+              }
+            ]
+          },
+          {
+            "candidate": "020",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_d_evolutionary_formula_champion",
+                "rank": 14
+              }
+            ]
+          },
+          {
+            "candidate": "030",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_d_evolutionary_formula_champion",
+                "rank": 13
+              }
+            ]
+          },
+          {
+            "candidate": "040",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_d_evolutionary_formula_champion",
+                "rank": 16
+              }
+            ]
+          },
+          {
+            "candidate": "050",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_d_evolutionary_formula_champion",
+                "rank": 9
+              }
+            ]
+          },
+          {
+            "candidate": "100",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_d_evolutionary_formula_champion",
+                "rank": 1
+              }
+            ]
+          },
+          {
+            "candidate": "101",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_d_evolutionary_formula_champion",
+                "rank": 2
+              }
+            ]
+          },
+          {
+            "candidate": "111",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_d_weight_search_06",
+                "rank": 20
+              }
+            ]
+          },
+          {
+            "candidate": "112",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_d_weight_search_06",
+                "rank": 18
+              }
+            ]
+          },
+          {
+            "candidate": "113",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_d_weight_search_06",
+                "rank": 14
+              }
+            ]
+          },
+          {
+            "candidate": "114",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_d_weight_search_06",
+                "rank": 19
+              }
+            ]
+          },
+          {
+            "candidate": "116",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_d_weight_search_06",
+                "rank": 2
+              }
+            ]
+          },
+          {
+            "candidate": "117",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_d_weight_search_06",
+                "rank": 3
+              }
+            ]
+          },
+          {
+            "candidate": "121",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_d_evolutionary_formula_champion",
+                "rank": 6
+              }
+            ]
+          },
+          {
+            "candidate": "122",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_d_evolutionary_formula_champion",
+                "rank": 17
+              }
+            ]
+          },
+          {
+            "candidate": "131",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_d_evolutionary_formula_champion",
+                "rank": 5
+              }
+            ]
+          },
+          {
+            "candidate": "133",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_d_evolutionary_formula_champion",
+                "rank": 20
+              }
+            ]
+          },
+          {
+            "candidate": "141",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_d_evolutionary_formula_champion",
+                "rank": 7
+              }
+            ]
+          }
+        ]
+      },
+      "E": {
+        "contributors": 2,
+        "descriptive_order": [
+          {
+            "candidate": "007",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_e_frequency_w240",
+                "rank": 5
+              }
+            ]
+          },
+          {
+            "candidate": "037",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_e_frequency_w240",
+                "rank": 15
+              }
+            ]
+          },
+          {
+            "candidate": "131",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_e_frequency_w240",
+                "rank": 18
+              }
+            ]
+          },
+          {
+            "candidate": "247",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_e_frequency_w240",
+                "rank": 3
+              }
+            ]
+          },
+          {
+            "candidate": "270",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_e_evolutionary_formula_champion",
+                "rank": 13
+              }
+            ]
+          },
+          {
+            "candidate": "285",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_e_frequency_w240",
+                "rank": 1
+              }
+            ]
+          },
+          {
+            "candidate": "290",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_e_frequency_w240",
+                "rank": 20
+              }
+            ]
+          },
+          {
+            "candidate": "298",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_e_frequency_w240",
+                "rank": 17
+              }
+            ]
+          },
+          {
+            "candidate": "318",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_e_frequency_w240",
+                "rank": 4
+              }
+            ]
+          },
+          {
+            "candidate": "323",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_e_frequency_w240",
+                "rank": 16
+              }
+            ]
+          },
+          {
+            "candidate": "355",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_e_frequency_w240",
+                "rank": 9
+              }
+            ]
+          },
+          {
+            "candidate": "380",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_e_evolutionary_formula_champion",
+                "rank": 7
+              }
+            ]
+          },
+          {
+            "candidate": "390",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_e_evolutionary_formula_champion",
+                "rank": 10
+              }
+            ]
+          },
+          {
+            "candidate": "429",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_e_frequency_w240",
+                "rank": 12
+              }
+            ]
+          },
+          {
+            "candidate": "464",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_e_frequency_w240",
+                "rank": 13
+              }
+            ]
+          },
+          {
+            "candidate": "512",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_e_frequency_w240",
+                "rank": 7
+              }
+            ]
+          },
+          {
+            "candidate": "562",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_e_evolutionary_formula_champion",
+                "rank": 15
+              }
+            ]
+          },
+          {
+            "candidate": "570",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_e_evolutionary_formula_champion",
+                "rank": 9
+              }
+            ]
+          },
+          {
+            "candidate": "580",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_e_evolutionary_formula_champion",
+                "rank": 1
+              }
+            ]
+          },
+          {
+            "candidate": "582",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_e_evolutionary_formula_champion",
+                "rank": 3
+              }
+            ]
+          }
+        ]
+      },
+      "F": {
+        "contributors": 2,
+        "descriptive_order": [
+          {
+            "candidate": "851",
+            "families": [
+              "RESEARCH_V4",
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 2,
+            "simple_count": 2,
+            "sources": [
+              {
+                "formula_id": "research_v4_f_bma_2",
+                "rank": 3
+              },
+              {
+                "formula_id": "research_v5_f_learned_ensemble",
+                "rank": 10
+              }
+            ]
+          },
+          {
+            "candidate": "039",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_f_bma_2",
+                "rank": 13
+              }
+            ]
+          },
+          {
+            "candidate": "065",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_f_bma_2",
+                "rank": 6
+              }
+            ]
+          },
+          {
+            "candidate": "068",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_f_bma_2",
+                "rank": 10
+              }
+            ]
+          },
+          {
+            "candidate": "094",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_f_bma_2",
+                "rank": 4
+              }
+            ]
+          },
+          {
+            "candidate": "137",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_f_bma_2",
+                "rank": 5
+              }
+            ]
+          },
+          {
+            "candidate": "169",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_f_bma_2",
+                "rank": 12
+              }
+            ]
+          },
+          {
+            "candidate": "304",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_f_bma_2",
+                "rank": 18
+              }
+            ]
+          },
+          {
+            "candidate": "408",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_f_bma_2",
+                "rank": 1
+              }
+            ]
+          },
+          {
+            "candidate": "421",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_f_learned_ensemble",
+                "rank": 5
+              }
+            ]
+          },
+          {
+            "candidate": "424",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_f_bma_2",
+                "rank": 20
+              }
+            ]
+          },
+          {
+            "candidate": "439",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_f_bma_2",
+                "rank": 11
+              }
+            ]
+          },
+          {
+            "candidate": "509",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_f_learned_ensemble",
+                "rank": 17
+              }
+            ]
+          },
+          {
+            "candidate": "529",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_f_learned_ensemble",
+                "rank": 12
+              }
+            ]
+          },
+          {
+            "candidate": "547",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_f_learned_ensemble",
+                "rank": 3
+              }
+            ]
+          },
+          {
+            "candidate": "578",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_f_bma_2",
+                "rank": 9
+              }
+            ]
+          },
+          {
+            "candidate": "592",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_f_learned_ensemble",
+                "rank": 20
+              }
+            ]
+          },
+          {
+            "candidate": "602",
+            "families": [
+              "RESEARCH_V4"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v4_f_bma_2",
+                "rank": 19
+              }
+            ]
+          },
+          {
+            "candidate": "615",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_f_learned_ensemble",
+                "rank": 15
+              }
+            ]
+          },
+          {
+            "candidate": "635",
+            "families": [
+              "RESEARCH_V5"
+            ],
+            "family_diversity": 1,
+            "simple_count": 1,
+            "sources": [
+              {
+                "formula_id": "research_v5_f_learned_ensemble",
+                "rank": 16
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "data_cutoff": {
+    "date": "2026-08-16",
+    "date_th": "16 สิงหาคม 2569"
+  },
+  "disclaimers": {
+    "consensus_th": "จำนวนวิธีที่เลือกตรงกันไม่ใช่เปอร์เซ็นต์โอกาสถูกรางวัล",
+    "prospective_th": "หลักฐาน prospective ยังมีตัวอย่างน้อย และยังไม่ใช่ข้อพิสูจน์ความแม่นยำ",
+    "ranking_score_th": "คะแนนใช้จัดอันดับตามวิธีเดิม ไม่ใช่เปอร์เซ็นต์โอกาสถูกรางวัล"
+  },
+  "formula_bank": {
+    "forward_runnable_count": 16,
+    "methods": [
+      {
+        "family": "PRODUCTION",
+        "formula_id": "production_a_best_single_signal",
+        "future_data_used": false,
+        "ranking": [
+          {
+            "candidate": "26",
+            "rank": 1,
+            "score": 1.0,
+            "score_source": "rank_score"
+          },
+          {
+            "candidate": "52",
+            "rank": 2,
+            "score": 0.98989898989899,
+            "score_source": "rank_score"
+          },
+          {
+            "candidate": "60",
+            "rank": 3,
+            "score": 0.97979797979798,
+            "score_source": "rank_score"
+          },
+          {
+            "candidate": "22",
+            "rank": 4,
+            "score": 0.96969696969697,
+            "score_source": "rank_score"
+          },
+          {
+            "candidate": "78",
+            "rank": 5,
+            "score": 0.95959595959596,
+            "score_source": "rank_score"
+          },
+          {
+            "candidate": "69",
+            "rank": 6,
+            "score": 0.94949494949495,
+            "score_source": "rank_score"
+          },
+          {
+            "candidate": "67",
+            "rank": 7,
+            "score": 0.939393939393939,
+            "score_source": "rank_score"
+          },
+          {
+            "candidate": "94",
+            "rank": 8,
+            "score": 0.929292929292929,
+            "score_source": "rank_score"
+          },
+          {
+            "candidate": "07",
+            "rank": 9,
+            "score": 0.919191919191919,
+            "score_source": "rank_score"
+          },
+          {
+            "candidate": "95",
+            "rank": 10,
+            "score": 0.909090909090909,
+            "score_source": "rank_score"
+          },
+          {
+            "candidate": "62",
+            "rank": 11,
+            "score": 0.898989898989899,
+            "score_source": "rank_score"
+          },
+          {
+            "candidate": "82",
+            "rank": 12,
+            "score": 0.888888888888889,
+            "score_source": "rank_score"
+          },
+          {
+            "candidate": "71",
+            "rank": 13,
+            "score": 0.878787878787879,
+            "score_source": "rank_score"
+          },
+          {
+            "candidate": "10",
+            "rank": 14,
+            "score": 0.868686868686869,
+            "score_source": "rank_score"
+          },
+          {
+            "candidate": "16",
+            "rank": 15,
+            "score": 0.858585858585859,
+            "score_source": "rank_score"
+          },
+          {
+            "candidate": "02",
+            "rank": 16,
+            "score": 0.848484848484849,
+            "score_source": "rank_score"
+          },
+          {
+            "candidate": "08",
+            "rank": 17,
+            "score": 0.838383838383838,
+            "score_source": "rank_score"
+          },
+          {
+            "candidate": "20",
+            "rank": 18,
+            "score": 0.828282828282828,
+            "score_source": "rank_score"
+          },
+          {
+            "candidate": "36",
+            "rank": 19,
+            "score": 0.818181818181818,
+            "score_source": "rank_score"
+          },
+          {
+            "candidate": "47",
+            "rank": 20,
+            "score": 0.808080808080808,
+            "score_source": "rank_score"
+          }
+        ],
+        "ranking_available": true,
+        "ranking_fingerprint": "29d77a168100c4f072487a3464817180426660d4db5c23a0c246cb7f95d05034",
+        "target_code": "A",
+        "target_result_used": false,
+        "update_behavior": "RECOMPUTE_WITH_HISTORY"
+      },
+      {
+        "family": "EXPERIMENTAL",
+        "formula_id": "experimental_b_best_single_signal",
+        "future_data_used": null,
+        "ranking": [],
+        "ranking_available": false,
+        "ranking_fingerprint": null,
+        "target_code": "B",
+        "target_result_used": null,
+        "update_behavior": "RECOMPUTE_WITH_HISTORY"
+      },
+      {
+        "family": "RESEARCH_V3",
+        "formula_id": "research_v3_a_digit_expanding",
+        "future_data_used": false,
+        "ranking": [
+          {
+            "candidate": "69",
+            "rank": 1,
+            "score": 0.014175868411651,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "65",
+            "rank": 2,
+            "score": 0.013766949130574,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "99",
+            "rank": 3,
+            "score": 0.013645929405645,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "59",
+            "rank": 4,
+            "score": 0.013645929405645,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "95",
+            "rank": 5,
+            "score": 0.013252296826665,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "55",
+            "rank": 6,
+            "score": 0.013252296826665,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "68",
+            "rank": 7,
+            "score": 0.013085416995447,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "66",
+            "rank": 8,
+            "score": 0.012949110568421,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "58",
+            "rank": 9,
+            "score": 0.012596242528365,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "98",
+            "rank": 10,
+            "score": 0.012596242528365,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "62",
+            "rank": 11,
+            "score": 0.012540191287345,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "56",
+            "rank": 12,
+            "score": 0.012465031668705,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "96",
+            "rank": 13,
+            "score": 0.012465031668705,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "61",
+            "rank": 14,
+            "score": 0.012403884860319,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "89",
+            "rank": 15,
+            "score": 0.01218859713913,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "92",
+            "rank": 16,
+            "score": 0.012071399089725,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "52",
+            "rank": 17,
+            "score": 0.012071399089725,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "29",
+            "rank": 18,
+            "score": 0.012056112387628,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "91",
+            "rank": 19,
+            "score": 0.011940188230064,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "51",
+            "rank": 20,
+            "score": 0.011940188230064,
+            "score_source": "probability"
+          }
+        ],
+        "ranking_available": true,
+        "ranking_fingerprint": "f7de2ad97216ea8369f19c6d8abff80a69976ac44a0e1e6349b925fbea80d3b4",
+        "target_code": "A",
+        "target_result_used": false,
+        "update_behavior": "REFIT_WITH_FROZEN_PROTOCOL"
+      },
+      {
+        "family": "RESEARCH_V3",
+        "formula_id": "research_v3_b_composite_recent",
+        "future_data_used": false,
+        "ranking": [
+          {
+            "candidate": "15",
+            "rank": 1,
+            "score": 0.048754727134811,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "79",
+            "rank": 2,
+            "score": 0.045830050872578,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "14",
+            "rank": 3,
+            "score": 0.040813633537143,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "95",
+            "rank": 4,
+            "score": 0.039136016869743,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "63",
+            "rank": 5,
+            "score": 0.031265022929909,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "09",
+            "rank": 6,
+            "score": 0.030482300288174,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "52",
+            "rank": 7,
+            "score": 0.030280470703652,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "87",
+            "rank": 8,
+            "score": 0.02853979200261,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "77",
+            "rank": 9,
+            "score": 0.026363904866381,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "84",
+            "rank": 10,
+            "score": 0.024569239798352,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "06",
+            "rank": 11,
+            "score": 0.024520255266256,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "70",
+            "rank": 12,
+            "score": 0.023177571121718,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "46",
+            "rank": 13,
+            "score": 0.022434073832584,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "12",
+            "rank": 14,
+            "score": 0.022108797171861,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "72",
+            "rank": 15,
+            "score": 0.020715395685037,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "98",
+            "rank": 16,
+            "score": 0.018260311059662,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "65",
+            "rank": 17,
+            "score": 0.017916876876741,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "66",
+            "rank": 18,
+            "score": 0.016990160460414,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "03",
+            "rank": 19,
+            "score": 0.016843212839651,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "29",
+            "rank": 20,
+            "score": 0.016170555725499,
+            "score_source": "probability"
+          }
+        ],
+        "ranking_available": true,
+        "ranking_fingerprint": "fb36fd0156b97ced60622ef53e28f0133fb7f838649c969e239ff71f4e909962",
+        "target_code": "B",
+        "target_result_used": false,
+        "update_behavior": "REFIT_WITH_FROZEN_PROTOCOL"
+      },
+      {
+        "family": "RESEARCH_V4",
+        "formula_id": "research_v4_a_regime_frequency",
+        "future_data_used": false,
+        "ranking": [
+          {
+            "candidate": "61",
+            "rank": 1,
+            "score": 0.033333333333256,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "06",
+            "rank": 2,
+            "score": 0.033333333333256,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "92",
+            "rank": 3,
+            "score": 0.02499999999995,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "09",
+            "rank": 4,
+            "score": 0.02499999999995,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "58",
+            "rank": 5,
+            "score": 0.02499999999995,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "91",
+            "rank": 6,
+            "score": 0.02499999999995,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "79",
+            "rank": 7,
+            "score": 0.02499999999995,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "83",
+            "rank": 8,
+            "score": 0.02499999999995,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "50",
+            "rank": 9,
+            "score": 0.02499999999995,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "14",
+            "rank": 10,
+            "score": 0.02499999999995,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "07",
+            "rank": 11,
+            "score": 0.016666666666644,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "21",
+            "rank": 12,
+            "score": 0.016666666666644,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "77",
+            "rank": 13,
+            "score": 0.016666666666644,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "43",
+            "rank": 14,
+            "score": 0.016666666666644,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "99",
+            "rank": 15,
+            "score": 0.016666666666644,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "95",
+            "rank": 16,
+            "score": 0.016666666666644,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "89",
+            "rank": 17,
+            "score": 0.016666666666644,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "42",
+            "rank": 18,
+            "score": 0.016666666666644,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "30",
+            "rank": 19,
+            "score": 0.016666666666644,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "38",
+            "rank": 20,
+            "score": 0.016666666666644,
+            "score_source": "probability"
+          }
+        ],
+        "ranking_available": true,
+        "ranking_fingerprint": "6e4c7285a4956aeb48f9fe92b753cfd433c9fa483e38c71c0690a9b64a626c89",
+        "target_code": "A",
+        "target_result_used": false,
+        "update_behavior": "RECOMPUTE_WITH_HISTORY"
+      },
+      {
+        "family": "RESEARCH_V4",
+        "formula_id": "research_v4_b_ensemble_2",
+        "future_data_used": false,
+        "ranking": [
+          {
+            "candidate": "15",
+            "rank": 1,
+            "score": 0.048701298701236,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "14",
+            "rank": 2,
+            "score": 0.04220779220774,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "95",
+            "rank": 3,
+            "score": 0.038961038960992,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "06",
+            "rank": 4,
+            "score": 0.032467532467496,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "40",
+            "rank": 5,
+            "score": 0.032467532467496,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "52",
+            "rank": 6,
+            "score": 0.025974025974,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "12",
+            "rank": 7,
+            "score": 0.025974025974,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "70",
+            "rank": 8,
+            "score": 0.025974025974,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "46",
+            "rank": 9,
+            "score": 0.022727272727252,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "59",
+            "rank": 10,
+            "score": 0.022727272727252,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "84",
+            "rank": 11,
+            "score": 0.022727272727252,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "63",
+            "rank": 12,
+            "score": 0.019480519480504,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "87",
+            "rank": 13,
+            "score": 0.019480519480504,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "98",
+            "rank": 14,
+            "score": 0.019480519480504,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "72",
+            "rank": 15,
+            "score": 0.019480519480504,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "78",
+            "rank": 16,
+            "score": 0.019480519480504,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "56",
+            "rank": 17,
+            "score": 0.019480519480504,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "96",
+            "rank": 18,
+            "score": 0.019480519480504,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "04",
+            "rank": 19,
+            "score": 0.016233766233756,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "09",
+            "rank": 20,
+            "score": 0.016233766233756,
+            "score_source": "probability"
+          }
+        ],
+        "ranking_available": true,
+        "ranking_fingerprint": "464986c432650765bc9ac2df6e9673aad0c46a0aa150719ebf4e5629f3d4fbc6",
+        "target_code": "B",
+        "target_result_used": false,
+        "update_behavior": "RECOMPUTE_WITH_HISTORY"
+      },
+      {
+        "family": "RESEARCH_V4",
+        "formula_id": "research_v4_c_frequency_w24",
+        "future_data_used": false,
+        "ranking": [
+          {
+            "candidate": "059",
+            "rank": 1,
+            "score": 0.041666666664972,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "878",
+            "rank": 2,
+            "score": 0.041666666664972,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "751",
+            "rank": 3,
+            "score": 0.041666666664972,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "174",
+            "rank": 4,
+            "score": 0.041666666664972,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "461",
+            "rank": 5,
+            "score": 0.041666666664972,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "833",
+            "rank": 6,
+            "score": 0.041666666664972,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "932",
+            "rank": 7,
+            "score": 0.041666666664972,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "292",
+            "rank": 8,
+            "score": 0.041666666664972,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "506",
+            "rank": 9,
+            "score": 0.041666666664972,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "536",
+            "rank": 10,
+            "score": 0.041666666664972,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "004",
+            "rank": 11,
+            "score": 0.041666666664972,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "876",
+            "rank": 12,
+            "score": 0.041666666664972,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "639",
+            "rank": 13,
+            "score": 0.041666666664972,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "345",
+            "rank": 14,
+            "score": 0.041666666664972,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "458",
+            "rank": 15,
+            "score": 0.041666666664972,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "173",
+            "rank": 16,
+            "score": 0.041666666664972,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "763",
+            "rank": 17,
+            "score": 0.041666666664972,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "820",
+            "rank": 18,
+            "score": 0.041666666664972,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "340",
+            "rank": 19,
+            "score": 0.041666666664972,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "309",
+            "rank": 20,
+            "score": 0.041666666664972,
+            "score_source": "probability"
+          }
+        ],
+        "ranking_available": true,
+        "ranking_fingerprint": "d78eea4fda9c67dc1fb4f5da100058ff72782821d5ecadfdcaeccc742732895a",
+        "target_code": "C",
+        "target_result_used": false,
+        "update_behavior": "RECOMPUTE_WITH_HISTORY"
+      },
+      {
+        "family": "RESEARCH_V4",
+        "formula_id": "research_v4_d_weight_search_06",
+        "future_data_used": false,
+        "ranking": [
+          {
+            "candidate": "615",
+            "rank": 1,
+            "score": 0.002833891633135,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "116",
+            "rank": 2,
+            "score": 0.002329162077303,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "117",
+            "rank": 3,
+            "score": 0.002320567056194,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "517",
+            "rank": 4,
+            "score": 0.002176402011774,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "196",
+            "rank": 5,
+            "score": 0.002168915104239,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "816",
+            "rank": 6,
+            "score": 0.002154241425669,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "616",
+            "rank": 7,
+            "score": 0.002035682273782,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "597",
+            "rank": 8,
+            "score": 0.002021344066955,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "656",
+            "rank": 9,
+            "score": 0.002018170972295,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "612",
+            "rank": 10,
+            "score": 0.001954574479135,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "514",
+            "rank": 11,
+            "score": 0.001946991475437,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "696",
+            "rank": 12,
+            "score": 0.001911243029433,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "516",
+            "rank": 13,
+            "score": 0.001898999547978,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "113",
+            "rank": 14,
+            "score": 0.001898999547978,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "617",
+            "rank": 15,
+            "score": 0.001898999547978,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "197",
+            "rank": 16,
+            "score": 0.001892669835934,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "157",
+            "rank": 17,
+            "score": 0.00189147619231,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "112",
+            "rank": 18,
+            "score": 0.001890312580553,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "114",
+            "rank": 19,
+            "score": 0.001890100129653,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "111",
+            "rank": 20,
+            "score": 0.001890055413664,
+            "score_source": "probability"
+          }
+        ],
+        "ranking_available": true,
+        "ranking_fingerprint": "d1827265372a75eb40d2dfcc86d58385b171432eb4884ed07c2d93577d8cced5",
+        "target_code": "D",
+        "target_result_used": false,
+        "update_behavior": "RECOMPUTE_WITH_HISTORY"
+      },
+      {
+        "family": "RESEARCH_V4",
+        "formula_id": "research_v4_e_frequency_w240",
+        "future_data_used": false,
+        "ranking": [
+          {
+            "candidate": "285",
+            "rank": 1,
+            "score": 0.008333333333272,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "983",
+            "rank": 2,
+            "score": 0.006249999999956,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "247",
+            "rank": 3,
+            "score": 0.006249999999956,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "318",
+            "rank": 4,
+            "score": 0.006249999999956,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "007",
+            "rank": 5,
+            "score": 0.006249999999956,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "648",
+            "rank": 6,
+            "score": 0.006249999999956,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "512",
+            "rank": 7,
+            "score": 0.006249999999956,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "739",
+            "rank": 8,
+            "score": 0.006249999999956,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "355",
+            "rank": 9,
+            "score": 0.006249999999956,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "726",
+            "rank": 10,
+            "score": 0.006249999999956,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "626",
+            "rank": 11,
+            "score": 0.006249999999956,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "429",
+            "rank": 12,
+            "score": 0.006249999999956,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "464",
+            "rank": 13,
+            "score": 0.006249999999956,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "602",
+            "rank": 14,
+            "score": 0.006249999999956,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "037",
+            "rank": 15,
+            "score": 0.00416666666664,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "323",
+            "rank": 16,
+            "score": 0.00416666666664,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "298",
+            "rank": 17,
+            "score": 0.00416666666664,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "131",
+            "rank": 18,
+            "score": 0.00416666666664,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "901",
+            "rank": 19,
+            "score": 0.00416666666664,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "290",
+            "rank": 20,
+            "score": 0.00416666666664,
+            "score_source": "probability"
+          }
+        ],
+        "ranking_available": true,
+        "ranking_fingerprint": "95105a1b5b6f2cbc4f3e6ff3af870350912ba2a080bf5b7ab585720a19737657",
+        "target_code": "E",
+        "target_result_used": false,
+        "update_behavior": "RECOMPUTE_WITH_HISTORY"
+      },
+      {
+        "family": "RESEARCH_V4",
+        "formula_id": "research_v4_f_bma_2",
+        "future_data_used": false,
+        "ranking": [
+          {
+            "candidate": "408",
+            "rank": 1,
+            "score": 0.632714868885067,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "716",
+            "rank": 2,
+            "score": 0.011727289679406,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "851",
+            "rank": 3,
+            "score": 0.011215422800697,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "094",
+            "rank": 4,
+            "score": 0.009899250082494,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "137",
+            "rank": 5,
+            "score": 0.009467172562475,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "065",
+            "rank": 6,
+            "score": 0.009467172562475,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "746",
+            "rank": 7,
+            "score": 0.009467172562475,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "938",
+            "rank": 8,
+            "score": 0.009217685873873,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "578",
+            "rank": 9,
+            "score": 0.009217685873873,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "068",
+            "rank": 10,
+            "score": 0.008729754719284,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "439",
+            "rank": 11,
+            "score": 0.008729754719284,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "169",
+            "rank": 12,
+            "score": 0.008729754719284,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "039",
+            "rank": 13,
+            "score": 0.008729754719284,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "868",
+            "rank": 14,
+            "score": 0.008617797735629,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "765",
+            "rank": 15,
+            "score": 0.008499701069915,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "954",
+            "rank": 16,
+            "score": 0.008499701069915,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "837",
+            "rank": 17,
+            "score": 0.008499701069915,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "304",
+            "rank": 18,
+            "score": 0.00824165240719,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "602",
+            "rank": 19,
+            "score": 0.00824165240719,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "424",
+            "rank": 20,
+            "score": 0.00824165240719,
+            "score_source": "probability"
+          }
+        ],
+        "ranking_available": true,
+        "ranking_fingerprint": "d81879be8cfa4960ec49b96cba086b7e58188962c8e7897f61217d1cff5beb48",
+        "target_code": "F",
+        "target_result_used": false,
+        "update_behavior": "RECOMPUTE_WITH_HISTORY"
+      },
+      {
+        "family": "RESEARCH_V5",
+        "formula_id": "research_v5_a_evolutionary_formula_champion",
+        "future_data_used": false,
+        "ranking": [
+          {
+            "candidate": "89",
+            "rank": 1,
+            "score": 0.018147181842421,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "79",
+            "rank": 2,
+            "score": 0.017152697277463,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "98",
+            "rank": 3,
+            "score": 0.016956902162286,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "69",
+            "rank": 4,
+            "score": 0.016773559567008,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "97",
+            "rank": 5,
+            "score": 0.015908496447536,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "78",
+            "rank": 6,
+            "score": 0.015901467440047,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "87",
+            "rank": 7,
+            "score": 0.014970572370716,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "95",
+            "rank": 8,
+            "score": 0.014459630967251,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "68",
+            "rank": 9,
+            "score": 0.014376702007927,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "85",
+            "rank": 10,
+            "score": 0.014187818658821,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "67",
+            "rank": 11,
+            "score": 0.013951850595425,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "86",
+            "rank": 12,
+            "score": 0.013879795372916,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "94",
+            "rank": 13,
+            "score": 0.01360937737336,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "96",
+            "rank": 14,
+            "score": 0.013448797303806,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "99",
+            "rank": 15,
+            "score": 0.013105643278724,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "09",
+            "rank": 16,
+            "score": 0.013009154711089,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "75",
+            "rank": 17,
+            "score": 0.012696541154756,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "59",
+            "rank": 18,
+            "score": 0.012619277010372,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "84",
+            "rank": 19,
+            "score": 0.012273970714846,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "08",
+            "rank": 20,
+            "score": 0.01222647505679,
+            "score_source": "probability"
+          }
+        ],
+        "ranking_available": true,
+        "ranking_fingerprint": "813cc707bc3cae8c0327f703f61bb8aefdc4b36b480a3ac3c0bd35bb700e2e85",
+        "target_code": "A",
+        "target_result_used": false,
+        "update_behavior": "FIXED_MODEL_STATE"
+      },
+      {
+        "family": "RESEARCH_V5",
+        "formula_id": "research_v5_b_learned_ensemble",
+        "future_data_used": false,
+        "ranking": [
+          {
+            "candidate": "14",
+            "rank": 1,
+            "score": 0.013181157219055,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "09",
+            "rank": 2,
+            "score": 0.011687259520351,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "12",
+            "rank": 3,
+            "score": 0.011666296042931,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "15",
+            "rank": 4,
+            "score": 0.011504277860586,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "06",
+            "rank": 5,
+            "score": 0.011431389024714,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "52",
+            "rank": 6,
+            "score": 0.011399621400187,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "95",
+            "rank": 7,
+            "score": 0.011284433099587,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "79",
+            "rank": 8,
+            "score": 0.011082974712436,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "63",
+            "rank": 9,
+            "score": 0.01105901472754,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "03",
+            "rank": 10,
+            "score": 0.010941936946391,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "00",
+            "rank": 11,
+            "score": 0.010871609953548,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "77",
+            "rank": 12,
+            "score": 0.010846959496088,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "70",
+            "rank": 13,
+            "score": 0.010832493034999,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "46",
+            "rank": 14,
+            "score": 0.010681976814606,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "87",
+            "rank": 15,
+            "score": 0.010638216687124,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "84",
+            "rank": 16,
+            "score": 0.010582727340608,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "24",
+            "rank": 17,
+            "score": 0.010539599577161,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "72",
+            "rank": 18,
+            "score": 0.010507855100853,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "04",
+            "rank": 19,
+            "score": 0.010482504720693,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "29",
+            "rank": 20,
+            "score": 0.010482455368229,
+            "score_source": "probability"
+          }
+        ],
+        "ranking_available": true,
+        "ranking_fingerprint": "ff290a468699fe3f9554822a486ef2f5db73f5798436839541809b8d5677ce2c",
+        "target_code": "B",
+        "target_result_used": false,
+        "update_behavior": "REFIT_WITH_FROZEN_PROTOCOL"
+      },
+      {
+        "family": "RESEARCH_V5",
+        "formula_id": "research_v5_c_evolutionary_formula_champion",
+        "future_data_used": false,
+        "ranking": [
+          {
+            "candidate": "004",
+            "rank": 1,
+            "score": 0.00266943662133,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "107",
+            "rank": 2,
+            "score": 0.002455103684729,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "506",
+            "rank": 3,
+            "score": 0.002141105696774,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "100",
+            "rank": 4,
+            "score": 0.002137051517072,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "001",
+            "rank": 5,
+            "score": 0.002063269530853,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "201",
+            "rank": 6,
+            "score": 0.002023815493496,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "200",
+            "rank": 7,
+            "score": 0.002015630984956,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "000",
+            "rank": 8,
+            "score": 0.001988061255636,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "002",
+            "rank": 9,
+            "score": 0.001917263383847,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "103",
+            "rank": 10,
+            "score": 0.001916597217525,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "203",
+            "rank": 11,
+            "score": 0.001913388457059,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "011",
+            "rank": 12,
+            "score": 0.001902732275003,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "008",
+            "rank": 13,
+            "score": 0.001896097735692,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "112",
+            "rank": 14,
+            "score": 0.001843764818312,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "109",
+            "rank": 15,
+            "score": 0.001833764168907,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "105",
+            "rank": 16,
+            "score": 0.001832488836358,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "110",
+            "rank": 17,
+            "score": 0.001820361131584,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "017",
+            "rank": 18,
+            "score": 0.001813427330183,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "340",
+            "rank": 19,
+            "score": 0.001813005627291,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "021",
+            "rank": 20,
+            "score": 0.001809470997704,
+            "score_source": "probability"
+          }
+        ],
+        "ranking_available": true,
+        "ranking_fingerprint": "8390c700402198c6900f3b24320ac7510deaf551ad74c29b87a24b5fffb62092",
+        "target_code": "C",
+        "target_result_used": false,
+        "update_behavior": "FIXED_MODEL_STATE"
+      },
+      {
+        "family": "RESEARCH_V5",
+        "formula_id": "research_v5_d_evolutionary_formula_champion",
+        "future_data_used": false,
+        "ranking": [
+          {
+            "candidate": "100",
+            "rank": 1,
+            "score": 0.002057094160013,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "101",
+            "rank": 2,
+            "score": 0.002017389255833,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "000",
+            "rank": 3,
+            "score": 0.001984943538188,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "151",
+            "rank": 4,
+            "score": 0.001981149887832,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "131",
+            "rank": 5,
+            "score": 0.001962792991234,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "121",
+            "rank": 6,
+            "score": 0.001953678415209,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "141",
+            "rank": 7,
+            "score": 0.001951646021684,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "300",
+            "rank": 8,
+            "score": 0.001951316943448,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "050",
+            "rank": 9,
+            "score": 0.001949287000356,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "001",
+            "rank": 10,
+            "score": 0.001946631245772,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "200",
+            "rank": 11,
+            "score": 0.001942255669092,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "191",
+            "rank": 12,
+            "score": 0.001936526947071,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "030",
+            "rank": 13,
+            "score": 0.001931225336012,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "020",
+            "rank": 14,
+            "score": 0.001922257356325,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "400",
+            "rank": 15,
+            "score": 0.001920257645689,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "040",
+            "rank": 16,
+            "score": 0.001920257645689,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "122",
+            "rank": 17,
+            "score": 0.001915969587259,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "161",
+            "rank": 18,
+            "score": 0.001909674235251,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "002",
+            "rank": 19,
+            "score": 0.001909058436229,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "133",
+            "rank": 20,
+            "score": 0.001907394061062,
+            "score_source": "probability"
+          }
+        ],
+        "ranking_available": true,
+        "ranking_fingerprint": "f8275acce4d58048a525e99132a377aa290644fee749703a98564c30fd527323",
+        "target_code": "D",
+        "target_result_used": false,
+        "update_behavior": "FIXED_MODEL_STATE"
+      },
+      {
+        "family": "RESEARCH_V5",
+        "formula_id": "research_v5_e_evolutionary_formula_champion",
+        "future_data_used": false,
+        "ranking": [
+          {
+            "candidate": "580",
+            "rank": 1,
+            "score": 0.001759591140548,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "940",
+            "rank": 2,
+            "score": 0.001663958893995,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "582",
+            "rank": 3,
+            "score": 0.001607126287878,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "690",
+            "rank": 4,
+            "score": 0.001587630815808,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "960",
+            "rank": 5,
+            "score": 0.001572912850667,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "590",
+            "rank": 6,
+            "score": 0.001562020054097,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "380",
+            "rank": 7,
+            "score": 0.001553920952074,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "593",
+            "rank": 8,
+            "score": 0.001539203201826,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "570",
+            "rank": 9,
+            "score": 0.001533789107818,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "390",
+            "rank": 10,
+            "score": 0.001523233421713,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "970",
+            "rank": 11,
+            "score": 0.001518389737879,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "972",
+            "rank": 12,
+            "score": 0.00147183485773,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "270",
+            "rank": 13,
+            "score": 0.001470037821994,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "990",
+            "rank": 14,
+            "score": 0.001457023781888,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "562",
+            "rank": 15,
+            "score": 0.001451193365386,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "962",
+            "rank": 16,
+            "score": 0.001436623312609,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "592",
+            "rank": 17,
+            "score": 0.00142667434772,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "840",
+            "rank": 18,
+            "score": 0.00142366154778,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "680",
+            "rank": 19,
+            "score": 0.00141708949203,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "693",
+            "rank": 20,
+            "score": 0.001416759842179,
+            "score_source": "probability"
+          }
+        ],
+        "ranking_available": true,
+        "ranking_fingerprint": "e2c99b04fbe8c2ef7234ebda80e049f71cfe3151d22d1ba192d2618ec0863882",
+        "target_code": "E",
+        "target_result_used": false,
+        "update_behavior": "FIXED_MODEL_STATE"
+      },
+      {
+        "family": "RESEARCH_V5",
+        "formula_id": "research_v5_f_learned_ensemble",
+        "future_data_used": false,
+        "ranking": [
+          {
+            "candidate": "947",
+            "rank": 1,
+            "score": 0.001307920807594,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "961",
+            "rank": 2,
+            "score": 0.001289215062945,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "547",
+            "rank": 3,
+            "score": 0.001285109193534,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "970",
+            "rank": 4,
+            "score": 0.001284198873102,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "421",
+            "rank": 5,
+            "score": 0.001237403659704,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "824",
+            "rank": 6,
+            "score": 0.001234315506927,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "781",
+            "rank": 7,
+            "score": 0.001228429787295,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "691",
+            "rank": 8,
+            "score": 0.00122629412863,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "734",
+            "rank": 9,
+            "score": 0.001207997289417,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "851",
+            "rank": 10,
+            "score": 0.001194532305124,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "652",
+            "rank": 11,
+            "score": 0.00119402076146,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "529",
+            "rank": 12,
+            "score": 0.001191101372413,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "971",
+            "rank": 13,
+            "score": 0.00119036033274,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "980",
+            "rank": 14,
+            "score": 0.00118766870974,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "615",
+            "rank": 15,
+            "score": 0.001183213449261,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "635",
+            "rank": 16,
+            "score": 0.001183203175532,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "509",
+            "rank": 17,
+            "score": 0.001182483581007,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "778",
+            "rank": 18,
+            "score": 0.001181319401504,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "736",
+            "rank": 19,
+            "score": 0.001180852928989,
+            "score_source": "probability"
+          },
+          {
+            "candidate": "592",
+            "rank": 20,
+            "score": 0.00117155974743,
+            "score_source": "probability"
+          }
+        ],
+        "ranking_available": true,
+        "ranking_fingerprint": "862fe71832882da5f5d892bf2a7a4d7607e8fad1cbacae5edd2be305ee196f1c",
+        "target_code": "F",
+        "target_result_used": false,
+        "update_behavior": "REFIT_WITH_FROZEN_PROTOCOL"
+      }
+    ],
+    "policy_fingerprint": "f8b096241eb2524df7fa79ff5ad7d877c64f5b74da6f6e962f6578df955bd03d",
+    "policy_id": "formula_forward_policy_v1"
+  },
+  "generated_at": "2026-08-20T17:09:15.024059+00:00",
+  "history": {
+    "canonical_draw_count": 875,
+    "canonical_first_draw": "1990-01-16",
+    "canonical_first_draw_th": "16 มกราคม 2533",
+    "canonical_last_draw": "2026-08-01",
+    "canonical_last_draw_th": "1 สิงหาคม 2569",
+    "combined_draw_count": 876,
+    "latest_known_draw": "2026-08-16",
+    "latest_known_draw_th": "16 สิงหาคม 2569",
+    "operational_draw_count": 1,
+    "operational_draws": [
+      {
+        "back3": [
+          "094",
+          "937"
+        ],
+        "buddhist_year": 2569,
+        "draw_date": "2026-08-16",
+        "draw_date_th": "16 สิงหาคม 2569",
+        "first_prize": "004615",
+        "front3": [
+          "429",
+          "731"
+        ],
+        "last2": "53"
+      }
+    ]
+  },
+  "latest_completed_draw": {
+    "back3": [
+      "094",
+      "937"
+    ],
+    "draw_date": "2026-08-16",
+    "draw_date_th": "16 สิงหาคม 2569",
+    "first_prize": "004615",
+    "front3": [
+      "429",
+      "731"
+    ],
+    "last2": "53"
+  },
+  "number_explorer": {
+    "production_target": "A",
+    "production_top_20": [
+      "26",
+      "52",
+      "60",
+      "22",
+      "78",
+      "69",
+      "67",
+      "94",
+      "07",
+      "95",
+      "62",
+      "82",
+      "71",
+      "10",
+      "16",
+      "02",
+      "08",
+      "20",
+      "36",
+      "47"
+    ]
+  },
+  "post_draw_audit": [
+    {
+      "draw_date": "2026-08-16",
+      "formula_id": "experimental_b_best_single_signal",
+      "metrics": {
+        "actual_rank": 94,
+        "top10_hit": false,
+        "top1_hit": false,
+        "top20_hit": false,
+        "top2_hit": false,
+        "top5_hit": false,
+        "winner_1_rank": null,
+        "winner_2_rank": null
+      },
+      "target_code": "B"
+    },
+    {
+      "draw_date": "2026-08-16",
+      "formula_id": "production_a_best_single_signal",
+      "metrics": {
+        "actual_rank": 35,
+        "top10_hit": false,
+        "top1_hit": false,
+        "top20_hit": false,
+        "top2_hit": false,
+        "top5_hit": false,
+        "winner_1_rank": null,
+        "winner_2_rank": null
+      },
+      "target_code": "A"
+    },
+    {
+      "draw_date": "2026-08-16",
+      "formula_id": "research_v3_a_digit_expanding",
+      "metrics": {
+        "actual_rank": null,
+        "top10_hit": null,
+        "top1_hit": false,
+        "top20_hit": null,
+        "top2_hit": false,
+        "top5_hit": false,
+        "winner_1_rank": null,
+        "winner_2_rank": null
+      },
+      "target_code": "A"
+    },
+    {
+      "draw_date": "2026-08-16",
+      "formula_id": "research_v3_b_composite_recent",
+      "metrics": {
+        "actual_rank": null,
+        "top10_hit": null,
+        "top1_hit": false,
+        "top20_hit": null,
+        "top2_hit": false,
+        "top5_hit": false,
+        "winner_1_rank": null,
+        "winner_2_rank": null
+      },
+      "target_code": "B"
+    },
+    {
+      "draw_date": "2026-08-16",
+      "formula_id": "research_v4_a_regime_frequency",
+      "metrics": {
+        "actual_rank": null,
+        "top10_hit": false,
+        "top1_hit": false,
+        "top20_hit": false,
+        "top2_hit": false,
+        "top5_hit": false,
+        "winner_1_rank": null,
+        "winner_2_rank": null
+      },
+      "target_code": "A"
+    },
+    {
+      "draw_date": "2026-08-16",
+      "formula_id": "research_v4_b_ensemble_2",
+      "metrics": {
+        "actual_rank": null,
+        "top10_hit": false,
+        "top1_hit": false,
+        "top20_hit": false,
+        "top2_hit": false,
+        "top5_hit": false,
+        "winner_1_rank": null,
+        "winner_2_rank": null
+      },
+      "target_code": "B"
+    },
+    {
+      "draw_date": "2026-08-16",
+      "formula_id": "research_v4_c_frequency_w24",
+      "metrics": {
+        "actual_rank": null,
+        "top10_hit": false,
+        "top1_hit": false,
+        "top20_hit": false,
+        "top2_hit": false,
+        "top5_hit": false,
+        "winner_1_rank": null,
+        "winner_2_rank": null
+      },
+      "target_code": "C"
+    },
+    {
+      "draw_date": "2026-08-16",
+      "formula_id": "research_v4_d_weight_search_06",
+      "metrics": {
+        "actual_rank": null,
+        "top10_hit": false,
+        "top1_hit": false,
+        "top20_hit": false,
+        "top2_hit": false,
+        "top5_hit": false,
+        "winner_1_rank": null,
+        "winner_2_rank": null
+      },
+      "target_code": "D"
+    },
+    {
+      "draw_date": "2026-08-16",
+      "formula_id": "research_v4_e_frequency_w240",
+      "metrics": {
+        "actual_rank": null,
+        "top10_hit": false,
+        "top1_hit": false,
+        "top20_hit": false,
+        "top2_hit": false,
+        "top5_hit": false,
+        "winner_1_rank": null,
+        "winner_2_rank": null
+      },
+      "target_code": "E"
+    },
+    {
+      "draw_date": "2026-08-16",
+      "formula_id": "research_v4_f_bma_2",
+      "metrics": {
+        "actual_rank": null,
+        "top10_hit": false,
+        "top1_hit": false,
+        "top20_hit": false,
+        "top2_hit": false,
+        "top5_hit": false,
+        "winner_1_rank": null,
+        "winner_2_rank": null
+      },
+      "target_code": "F"
+    },
+    {
+      "draw_date": "2026-08-16",
+      "formula_id": "research_v5_a_evolutionary_formula_champion",
+      "metrics": {
+        "actual_rank": null,
+        "top10_hit": false,
+        "top1_hit": false,
+        "top20_hit": false,
+        "top2_hit": false,
+        "top5_hit": false,
+        "winner_1_rank": null,
+        "winner_2_rank": null
+      },
+      "target_code": "A"
+    },
+    {
+      "draw_date": "2026-08-16",
+      "formula_id": "research_v5_b_learned_ensemble",
+      "metrics": {
+        "actual_rank": null,
+        "top10_hit": false,
+        "top1_hit": false,
+        "top20_hit": false,
+        "top2_hit": false,
+        "top5_hit": false,
+        "winner_1_rank": null,
+        "winner_2_rank": null
+      },
+      "target_code": "B"
+    },
+    {
+      "draw_date": "2026-08-16",
+      "formula_id": "research_v5_c_evolutionary_formula_champion",
+      "metrics": {
+        "actual_rank": null,
+        "top10_hit": false,
+        "top1_hit": false,
+        "top20_hit": false,
+        "top2_hit": false,
+        "top5_hit": false,
+        "winner_1_rank": null,
+        "winner_2_rank": null
+      },
+      "target_code": "C"
+    },
+    {
+      "draw_date": "2026-08-16",
+      "formula_id": "research_v5_d_evolutionary_formula_champion",
+      "metrics": {
+        "actual_rank": null,
+        "top10_hit": false,
+        "top1_hit": false,
+        "top20_hit": false,
+        "top2_hit": false,
+        "top5_hit": false,
+        "winner_1_rank": null,
+        "winner_2_rank": null
+      },
+      "target_code": "D"
+    },
+    {
+      "draw_date": "2026-08-16",
+      "formula_id": "research_v5_e_evolutionary_formula_champion",
+      "metrics": {
+        "actual_rank": null,
+        "top10_hit": false,
+        "top1_hit": false,
+        "top20_hit": false,
+        "top2_hit": false,
+        "top5_hit": false,
+        "winner_1_rank": null,
+        "winner_2_rank": null
+      },
+      "target_code": "E"
+    },
+    {
+      "draw_date": "2026-08-16",
+      "formula_id": "research_v5_f_learned_ensemble",
+      "metrics": {
+        "actual_rank": null,
+        "top10_hit": false,
+        "top1_hit": false,
+        "top20_hit": false,
+        "top2_hit": false,
+        "top5_hit": false,
+        "winner_1_rank": null,
+        "winner_2_rank": null
+      },
+      "target_code": "F"
+    }
+  ],
+  "presentation_fingerprint": "88aeb7c739b48821fdddb40ddcd3199125ef91716e8d0071d8d3e76d9af39626",
+  "prospective_summary": [
+    {
+      "formula_id": "experimental_b_best_single_signal",
+      "latest_evaluated_draw": "2026-08-16",
+      "prospective_draw_count": 1,
+      "target_code": "B",
+      "top10_hits": 0,
+      "top1_hits": 0,
+      "top20_hits": 0,
+      "top2_hits": 0,
+      "top5_hits": 0
+    },
+    {
+      "formula_id": "production_a_best_single_signal",
+      "latest_evaluated_draw": "2026-08-16",
+      "prospective_draw_count": 1,
+      "target_code": "A",
+      "top10_hits": 0,
+      "top1_hits": 0,
+      "top20_hits": 0,
+      "top2_hits": 0,
+      "top5_hits": 0
+    },
+    {
+      "formula_id": "research_v3_a_digit_expanding",
+      "latest_evaluated_draw": "2026-08-16",
+      "prospective_draw_count": 1,
+      "target_code": "A",
+      "top10_hits": 0,
+      "top1_hits": 0,
+      "top20_hits": 0,
+      "top2_hits": 0,
+      "top5_hits": 0
+    },
+    {
+      "formula_id": "research_v3_b_composite_recent",
+      "latest_evaluated_draw": "2026-08-16",
+      "prospective_draw_count": 1,
+      "target_code": "B",
+      "top10_hits": 0,
+      "top1_hits": 0,
+      "top20_hits": 0,
+      "top2_hits": 0,
+      "top5_hits": 0
+    },
+    {
+      "formula_id": "research_v4_a_regime_frequency",
+      "latest_evaluated_draw": "2026-08-16",
+      "prospective_draw_count": 1,
+      "target_code": "A",
+      "top10_hits": 0,
+      "top1_hits": 0,
+      "top20_hits": 0,
+      "top2_hits": 0,
+      "top5_hits": 0
+    },
+    {
+      "formula_id": "research_v4_b_ensemble_2",
+      "latest_evaluated_draw": "2026-08-16",
+      "prospective_draw_count": 1,
+      "target_code": "B",
+      "top10_hits": 0,
+      "top1_hits": 0,
+      "top20_hits": 0,
+      "top2_hits": 0,
+      "top5_hits": 0
+    },
+    {
+      "formula_id": "research_v4_c_frequency_w24",
+      "latest_evaluated_draw": "2026-08-16",
+      "prospective_draw_count": 1,
+      "target_code": "C",
+      "top10_hits": 0,
+      "top1_hits": 0,
+      "top20_hits": 0,
+      "top2_hits": 0,
+      "top5_hits": 0
+    },
+    {
+      "formula_id": "research_v4_d_weight_search_06",
+      "latest_evaluated_draw": "2026-08-16",
+      "prospective_draw_count": 1,
+      "target_code": "D",
+      "top10_hits": 0,
+      "top1_hits": 0,
+      "top20_hits": 0,
+      "top2_hits": 0,
+      "top5_hits": 0
+    },
+    {
+      "formula_id": "research_v4_e_frequency_w240",
+      "latest_evaluated_draw": "2026-08-16",
+      "prospective_draw_count": 1,
+      "target_code": "E",
+      "top10_hits": 0,
+      "top1_hits": 0,
+      "top20_hits": 0,
+      "top2_hits": 0,
+      "top5_hits": 0
+    },
+    {
+      "formula_id": "research_v4_f_bma_2",
+      "latest_evaluated_draw": "2026-08-16",
+      "prospective_draw_count": 1,
+      "target_code": "F",
+      "top10_hits": 0,
+      "top1_hits": 0,
+      "top20_hits": 0,
+      "top2_hits": 0,
+      "top5_hits": 0
+    },
+    {
+      "formula_id": "research_v5_a_evolutionary_formula_champion",
+      "latest_evaluated_draw": "2026-08-16",
+      "prospective_draw_count": 1,
+      "target_code": "A",
+      "top10_hits": 0,
+      "top1_hits": 0,
+      "top20_hits": 0,
+      "top2_hits": 0,
+      "top5_hits": 0
+    },
+    {
+      "formula_id": "research_v5_b_learned_ensemble",
+      "latest_evaluated_draw": "2026-08-16",
+      "prospective_draw_count": 1,
+      "target_code": "B",
+      "top10_hits": 0,
+      "top1_hits": 0,
+      "top20_hits": 0,
+      "top2_hits": 0,
+      "top5_hits": 0
+    },
+    {
+      "formula_id": "research_v5_c_evolutionary_formula_champion",
+      "latest_evaluated_draw": "2026-08-16",
+      "prospective_draw_count": 1,
+      "target_code": "C",
+      "top10_hits": 0,
+      "top1_hits": 0,
+      "top20_hits": 0,
+      "top2_hits": 0,
+      "top5_hits": 0
+    },
+    {
+      "formula_id": "research_v5_d_evolutionary_formula_champion",
+      "latest_evaluated_draw": "2026-08-16",
+      "prospective_draw_count": 1,
+      "target_code": "D",
+      "top10_hits": 0,
+      "top1_hits": 0,
+      "top20_hits": 0,
+      "top2_hits": 0,
+      "top5_hits": 0
+    },
+    {
+      "formula_id": "research_v5_e_evolutionary_formula_champion",
+      "latest_evaluated_draw": "2026-08-16",
+      "prospective_draw_count": 1,
+      "target_code": "E",
+      "top10_hits": 0,
+      "top1_hits": 0,
+      "top20_hits": 0,
+      "top2_hits": 0,
+      "top5_hits": 0
+    },
+    {
+      "formula_id": "research_v5_f_learned_ensemble",
+      "latest_evaluated_draw": "2026-08-16",
+      "prospective_draw_count": 1,
+      "target_code": "F",
+      "top10_hits": 0,
+      "top1_hits": 0,
+      "top20_hits": 0,
+      "top2_hits": 0,
+      "top5_hits": 0
+    }
+  ],
+  "public_fingerprints": {
+    "consensus": "6d49edaa781f5a4479d0b4c6a3d8ea7ed9fb99ab6e2c3ccbdc4dd745ec2cdc56",
+    "formula_forward_policy": "f8b096241eb2524df7fa79ff5ad7d877c64f5b74da6f6e962f6578df955bd03d",
+    "prediction_evidence": "f5898ce2ae4baab711f7c26e887b913d8d97bfffac1abe97f885c8ff91456783",
+    "source_product_snapshot": "b77906f226c03ba16d12115cff732bcaa31c5b32c89f814a36be3b18e18ddc09"
+  },
+  "published_at": "2026-08-20T17:11:56.850489+00:00",
+  "schema": "lsip_public_presentation_snapshot_v1",
+  "schema_version": "1.0.0",
+  "story": {
+    "consensus_highlight": {
+      "candidate": "95",
+      "families": [
+        "PRODUCTION",
+        "RESEARCH_V3",
+        "RESEARCH_V4",
+        "RESEARCH_V5"
+      ],
+      "family_diversity": 4,
+      "simple_count": 4,
+      "sources": [
+        {
+          "formula_id": "production_a_best_single_signal",
+          "rank": 10
+        },
+        {
+          "formula_id": "research_v3_a_digit_expanding",
+          "rank": 5
+        },
+        {
+          "formula_id": "research_v4_a_regime_frequency",
+          "rank": 16
+        },
+        {
+          "formula_id": "research_v5_a_evolutionary_formula_champion",
+          "rank": 8
+        }
+      ]
+    },
+    "history_draw_count": 876,
+    "history_first_draw": "1990-01-16",
+    "history_latest_draw": "2026-08-16",
+    "production_a_top5": [
+      "26",
+      "52",
+      "60",
+      "22",
+      "78"
+    ],
+    "scene_count": 7,
+    "target_date": "2026-09-01",
+    "v3_a_top5": [
+      "69",
+      "65",
+      "99",
+      "59",
+      "95"
+    ],
+    "v4_a_top5": [
+      "61",
+      "06",
+      "92",
+      "09",
+      "58"
+    ],
+    "v5_a_top5": [
+      "89",
+      "79",
+      "98",
+      "69",
+      "97"
+    ]
+  },
+  "target": {
+    "date": "2026-09-01",
+    "date_th": "1 กันยายน 2569",
+    "status": "PROVISIONAL_EXISTING_1ST_16TH_CALENDAR_RULE"
+  }
+}

@@ -4,3 +4,7 @@
 !.github/
 !.github/workflows/
 !.github/workflows/lsip-owner-cycle.yml
+!site-data/
+!site-data/active.json
+!site-data/snapshots/
+!site-data/snapshots/*.json
