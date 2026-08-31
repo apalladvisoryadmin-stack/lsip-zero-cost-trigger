@@ -49,7 +49,7 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           repository: apalladvisoryadmin-stack/LSIP
-          ref: a453047f06b95d027fa1215c8795c13da6fd48c8
+          ref: 7c1c05018abf23aac2a08aaa2bd043dc292feeac
           path: private-lsip
           fetch-depth: 1
           fetch-tags: false
@@ -295,7 +295,7 @@ jobs:
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
         with:
           repository: apalladvisoryadmin-stack/LSIP
-          ref: a453047f06b95d027fa1215c8795c13da6fd48c8
+          ref: 7c1c05018abf23aac2a08aaa2bd043dc292feeac
           path: private-lsip
           fetch-depth: 1
           fetch-tags: false
@@ -329,7 +329,24 @@ jobs:
           set -euo pipefail
           python private-lsip/backend/export_public_presentation_snapshot_v1.py \
             --operational-database runner-state/owner_draw_cycle_v1.db \
-            --output exported-site-data/active.json
+            --output exported-site-data/private-active.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          from app.operations.presentation import assert_public_snapshot_safe
+          from sanitize_public_derived_artifacts_v1 import _write_json, sanitize_presentation_snapshot
+
+          private_path = Path("exported-site-data/private-active.json")
+          private_snapshot = json.loads(private_path.read_text(encoding="utf-8"))
+          assert_public_snapshot_safe(private_snapshot)
+          _write_json(
+              Path("exported-site-data/active.json"),
+              sanitize_presentation_snapshot(private_snapshot),
+          )
+          private_path.unlink()
+          print("Private exporter gate and public allowlist projection: PASS")
+          PY
           snapshot_id="$(python -c 'import json; print(json.load(open("exported-site-data/active.json", encoding="utf-8"))["active_product_snapshot_id"])')"
           if [[ ! "$snapshot_id" =~ ^product-[0-9]{4}-[0-9]{2}-[0-9]{2}-[0-9a-f]{12}$ ]]; then
             echo "Public snapshot identity gate: FAIL"
@@ -348,12 +365,23 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-          from app.operations.presentation import assert_public_snapshot_safe
+          from verify_public_derived_artifacts_v1 import assert_public_privacy
 
           path = Path("exported-site-data/active.json")
           snapshot = json.loads(path.read_text(encoding="utf-8"))
-          assert_public_snapshot_safe(snapshot)
-          print("Public privacy and fingerprint gate: PASS")
+          assert_public_privacy(snapshot, "owner-cycle public snapshot")
+          if snapshot.get("publication_profile") != "lsip-public-sanitized-v1":
+              raise AssertionError("Sanitized publication profile missing")
+          methods = snapshot.get("formula_bank", {}).get("methods", [])
+          if len(methods) != 16:
+              raise AssertionError("Expected all 16 public methods")
+          for method in methods:
+              ranking = method.get("ranking", [])
+              if any(set(row) != {"rank", "candidate"} for row in ranking):
+                  raise AssertionError("Ranking row exceeded the public allowlist")
+              if any(row["rank"] != index for index, row in enumerate(ranking, start=1)):
+                  raise AssertionError("Public ranking order is invalid")
+          print("Public privacy and rank/candidate allowlist gate: PASS")
           PY
           mkdir -p public-trigger/site-data/snapshots
           install -m 0644 exported-site-data/active.json \

@@ -8,3 +8,7 @@
 !site-data/active.json
 !site-data/snapshots/
 !site-data/snapshots/*.json
+!site-data/historical-forecasts-v1/
+!site-data/historical-forecasts-v1/*.json
+!site-data/historical-forecasts-v1/years/
+!site-data/historical-forecasts-v1/years/*.json
